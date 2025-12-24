@@ -1,14 +1,6 @@
 Telugu Government Scheme Voice Assistant
 A voice-based AI system that helps Telugu-speaking citizens find eligible government schemes through natural conversation.
 
-Installation
-
-bash
-git clone https://github.com/yourusername/telugu-voice-agent
-cd telugu-voice-agent
-pip install -r requirements.txt
-python agent.py
-
  Features
 Telugu Voice Interface - Speak naturally, get spoken responses
 
