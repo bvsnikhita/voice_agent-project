@@ -36,7 +36,8 @@ memory.py - User profile and conversation history
 State Flow:
 text
 START → ASK_OCCUPATION → ASK_AGE → ASK_INCOME → CHECK_ELIGIBILITY → RECOMMEND → END
-🔧 Technical Highlights
+
+ Technical Highlights
 Modular Design - Each component is independent and testable
 
 Error Handling - Graceful handling of unclear inputs and contradictions
@@ -49,12 +50,18 @@ Offline Capable - Minimal external dependencies
 text
 telugu-voice-agent/
 ├── agent.py              # Main agent with state machine
+
 ├── speech.py             # Voice processing
+
 ├── tools.py              # Scheme checking & recommendations
+
 ├── memory.py             # Conversation history
+
 |__planner.py
+
 └── README.md
-🎯 Target Users
+
+Target Users
 Farmers looking for agricultural schemes
 
 Students seeking scholarships
